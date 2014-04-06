@@ -8,3 +8,7 @@ Two things to make this work:
 ```
 BUILDPACK_URL="https://github.com/ruudud/static-buildpack.git"
 ```
+
+Added nginx directives:
+ - types_hash_max_size 2048;
+
